@@ -9,6 +9,11 @@ function frameIt() {
     $("img").addClass("tasty")
   })
 }
+function pressIt() {
+  $(document).on("keydown", function(e) {
+    if (e.switch === 83)
+  })
+}
 $(document).ready(function(){
 
 // call functions here
