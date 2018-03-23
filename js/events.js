@@ -10,7 +10,7 @@ function frameIt() {
   })
 }
 function pressIt() {
-  $(document).on("keydown", function(e) {
+  $("form").on("keydown", function(e) {
     if (e.switch == 71) {
       alert("You have pressed G!")
     }
