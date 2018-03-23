@@ -10,9 +10,10 @@ function frameIt() {
   })
 }
 function pressIt() {
-  $("#typing").on("keydown", function(e) {
-    if (e.switch === 71) {
-      alert("You pressed g!")
+  $('#typing').on('keydown', function(e) {
+    // 'g' corresponds to 71
+    if (e.which === 71) {
+      alert("You pressed 'g'!")
     }
   })
 }
